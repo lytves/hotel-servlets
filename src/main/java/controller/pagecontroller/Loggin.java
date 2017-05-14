@@ -82,10 +82,6 @@ public class Loggin extends HttpServlet {
 			urlRedirect = "/loggin.jsp";
 		}
 		
-//		OutputStream out = response.getOutputStream();
-//		PrintWriter pw = new PrintWriter(out);
-//		pw.println("dddd");
-		
 		request.setAttribute("quees", "eshabitacion");
 		request.setAttribute("habs", Common.getHotel().getHabitaciones());
 		getServletContext().getRequestDispatcher(urlRedirect).forward(request, response);
