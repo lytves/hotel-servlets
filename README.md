@@ -3,6 +3,9 @@
 Universidad de Valencia, Ingeniería de Servicios y Aplicaciones Web, Ingenería del software, 2016-17
 
 ___
+
+JAVA EE MVC web application based on use of servlets and jsp
+
 Java EE application server: **GlassFish v.4.1.1**
 
 You need to create the roles to gain access to the intranet management web application.
