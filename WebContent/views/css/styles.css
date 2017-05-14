@@ -1,0 +1,315 @@
+html{
+	width: 100%;	
+}
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+}
+ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;   
+}
+li {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+	color:#d20e4d;
+}
+.a {
+	background-color: #6895d4; /* Green */
+    border: none;
+    color: white;
+    padding: 9px 20px; //trbl
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.a:hover{
+	background-color: #d20e4d;
+}
+.inline {
+	display:inline-block;
+}
+.container {
+	max-width:1024px;
+	margin:0 auto;
+}
+.logo {
+	text-align:center;
+}
+/** LOGIN **/
+section.login {
+	width: 400px;
+	margin: 50px auto 0;
+}
+.formulario {
+	text-align: center;
+}
+.formulario label {
+    width: 40px;
+    margin-top: 3px;
+    float: left;
+    padding: 3px;
+}
+.formulario input {
+    height: 20px;
+    width: 200px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 3px;
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+#loggin-submit, #loggin-reset {
+	margin-top: 10px;
+	margin-left: 45px;
+	cursor: pointer;
+	height: 25px;
+}
+/** END LOGIN **/
+/** HEADER **/
+header {
+	background:#efefef;
+	padding-bottom:10px;
+}
+.top-bar {
+	background:#c3ccd1;
+}
+.navegacion {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-weight: bold;
+}
+.style2{border: 0px;text-align: center;}
+nav.user-menu {
+	padding: 5px 20px;
+    text-align: right;
+    margin-bottom:10px;
+   }
+nav.user-menu ul li{
+	display: inline-block;
+	margin:0 5px;
+}
+nav.user-menu ul li a {
+	color: #ffffff;
+	font-size: 12px;
+}
+nav.user-menu ul li.role {
+	color: #d20e4d;
+	font-size: 12px;
+}
+nav.user-menu ul li a:hover {
+	color:#d20e4d;
+}
+nav.user-menu ul li.user a {
+	background:url(../images/user.png) no-repeat left center transparent;
+	padding-left:20px;
+}
+nav.user-menu ul li.logout a {
+	background:url(../images/logout.png) no-repeat left center transparent;
+	padding-left:23px;
+}
+nav.user-menu ul li.user a:hover {
+	background:url(../images/user_h.png) no-repeat left center transparent;
+}
+nav.user-menu ul li.logout a:hover {
+	background:url(../images/logout_h.png) no-repeat left center transparent;
+}
+header .logo {
+	margin-left:30px;
+}
+header nav.main-menu {
+	float:right;
+	padding: 25px 20px;
+}
+header nav.main-menu ul li {
+	display: inline-block;
+}
+header nav.main-menu ul li a {
+	background: #6895d4 none repeat scroll 0 0;
+    color: #ffffff;
+    display: block;
+	padding: 9px 20px;
+	margin: 4px 2px;
+	border: none;
+	text-align: center;
+    text-decoration: none;
+}
+header nav.main-menu ul li a:hover {
+	background: #d20e4d none repeat scroll 0 0;
+}
+/** END HEADER **/
+/** CONTENT **/
+.content {
+	border-left:1px solid #efefef;
+	border-right:1px solid #efefef;
+	min-height:465px;
+}
+.comands-page {
+/* 	padding-bottom: 20px; */
+	margin-bottom: 15px;
+}
+#popup-reserva{
+	position:absolute; 
+	background-color:white;
+    border:5px;
+    box-shadow: 12px 12px 15px #999;
+    border-color: black;
+	top:28%; 
+	left:30%;
+	width:620px; 	
+	height:380px; 		
+	visibility: hidden;
+}
+#popup-filtro {
+	position:absolute; 
+	background-color:white;
+    border:5px;
+    box-shadow: 12px 12px 15px #999;
+    border-color: black;
+	top:15%; 
+	left:38%;
+	width:420px; 	
+	height:200px; 		
+	visibility: hidden;
+}
+#popup-tarifas {
+	position:absolute; 
+	background-color:white;
+    border:5px;
+    box-shadow: 12px 12px 15px #999;
+    border-color: black;
+	top:15%; 
+	left:38%;
+	width:420px; 		
+	visibility: hidden;
+	padding-bottom: 10px;
+}
+#popup-nif, #popup-ganancias, #popup-ganancias-resultados {
+	position:absolute; 
+	background-color:white;
+    border:5px;
+    box-shadow: 12px 12px 15px #999;
+    border-color: black;
+	top:18%; 
+	left:38%;
+	width:400px; 	
+	height:180px; 		
+	visibility: hidden;
+}
+.formulari {
+    padding-left: 40px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.title {
+	font-size: 25px; 
+	padding-left: 150px; 
+	padding-top: 15px; 
+	padding-bottom: 10px;"
+}
+.title-filter {
+	font-size: 20px; 
+	padding-left: 150px; 
+	padding-top: 10px; 
+	padding-bottom: 8px;"
+}
+.title-nif {
+	font-size: 20px; 
+	padding-left: 100px; 
+	padding-top: 10px; 
+	padding-bottom: 8px;"
+}
+.buton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 60px; //trbl
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.buton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.tr-button {
+	background-color: #FF8000; /* Green */
+    border: none;
+    color: white;
+    padding: 0px 20px; //trbl
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 0px 0px 0px; //trbl
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    content-align:center;
+}
+.tr-button:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.buton-filter {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 14px; //trbl
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 25px 0px 10px; //trbl
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    content-align:center;	
+}
+.buton-filter:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/** TABLES **/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+thead, thead th {
+	text-align: center;
+	font-size: 120%;
+	color: #184584; 
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/** END TABLES **/
+/** END CONTENT **/
+/** FOOTER **/
+footer {
+	background:#c3ccd1;
+	border-top: 1px solid #d20e4d;
+	padding: 20px 20px 5px;
+}
+footer .copyright {
+	color:#ffffff;
+	font-size:11px;
+	text-align:center;
+}
+/** END FOOTER **/
